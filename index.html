@@ -1,0 +1,42 @@
+<div id="app" class="container">
+  <h1>my name's : {{ name }}.</h1>
+  <div>
+    <h1>my age's : {{ age }}.</h1>
+  </div>
+  <h1>name-age : {{ name }}-{{ age }}.</h1>
+  <div>
+    <div>
+      <div>
+        <div>
+          <h1>deep : {{ deep }}.</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="module">
+  import { createApp } from "./src/index.ts";
+
+  createApp({
+    name: "LiuYang",
+    age: 18,
+    deep: 4,
+  }).mount("#app");
+</script>
+
+<style>
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    position: fixed;
+    width: 80%;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, 0);
+  }
+</style>

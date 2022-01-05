@@ -1,0 +1,12 @@
+{
+  "name": "custom-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite"
+  },
+  "devDependencies": {
+    "vite": "^2.7.6"
+  }
+}
